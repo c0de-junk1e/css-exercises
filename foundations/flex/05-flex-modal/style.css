@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,7 +20,7 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
 }
 
 .icon {
@@ -70,9 +71,6 @@ button.cancel {
 
 /* SOLUTION: */
 
-.container {
-  background: green;
-}
 
 .modal {
   display: flex;
@@ -84,6 +82,7 @@ button.cancel {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
+
 /* header container should be wrapped around the button element as well in order for flex style to work */
 .header {
   display: flex;
@@ -97,4 +96,19 @@ button.cancel {
 
 .text {
   margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+
+}
+
+h4 {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
 }

@@ -1,0 +1,16 @@
+.container {
+    /* display: flex;
+    background: orange; */
+}
+.warning {
+    background: green;
+    display: flex;
+}
+.wrapper {
+    display: flex;
+    background: yellow;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+}
